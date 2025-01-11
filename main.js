@@ -1,6 +1,6 @@
 //Conceitos básicos JS
 
-//Utilizando switch case
+/*Utilizando switch case
 let option = 3
 
 switch(option){
@@ -13,12 +13,24 @@ switch(option){
     default:
         console.log("Error");
         break
-}
+} */
 
-// Somando utilizando função 
+/* Somando utilizando função
+
 function sum(name, x, y){
     let result = x + y
     console.log("olá", name, "A soma dos números é = ", result);
 }
 
-sum("leonardo", 7, 3)
+sum("leonardo", 7, 3) */
+
+/* Utilizando DOM
+
+let btn = document.querySelector("#btn")
+
+btn.addEventListener("click", (e) => {
+    e.preventDefault()
+    alert("Você mudou a cor do botão")
+
+    btn.classList.add("red")
+}) */
