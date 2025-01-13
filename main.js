@@ -15,6 +15,7 @@ switch(option){
         break
 } */
 
+
 /* Somando utilizando função
 
 function sum(name, x, y){
@@ -24,7 +25,9 @@ function sum(name, x, y){
 
 sum("leonardo", 7, 3) */
 
-/* Utilizando DOM
+
+/* Manipulando DOM
+
 
 let btn = document.querySelector("#btn")
 
@@ -34,3 +37,16 @@ btn.addEventListener("click", (e) => {
 
     btn.classList.add("red")
 }) */
+
+
+/*Eventos em um elemento 
+
+const form = document.getElementById("form")
+
+form.addEventListener("onsubmit", (e) => {
+    e.preventDefault()
+    console.log("olá");
+}) */
+
+
+
