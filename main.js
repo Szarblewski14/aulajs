@@ -138,7 +138,20 @@ console.log(fruta.includes("maça")); */
 
 
 
+// Repetição 
 
+/* Loop For (repete te q a condiçãoo seja falsa)
+for (i = 0; i < 10; i++){
+    console.log(i); 
+} */
+
+/* For Of (percorre lista)
+
+const names = ["leo", "nit"]
+
+for(let i of names){
+    console.log(i); 
+} */
 
  
 
