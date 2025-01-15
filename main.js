@@ -159,7 +159,28 @@ for(let i of names){
 
 
 
-// JS FRAMEWORK
+// ================== JS FRAMEWORK ==================
+
+// JS Moderno
+
+/* Desestruturação de array
+
+const data = ["leo", "leo@gmail.com"]
+
+const [username, email] = data
+console.log(`name ${username} email ${email}`); */
+
+/* Desestruturando obj
+
+const users = {
+    name: "leo",
+    id: 22
+}
+
+const {name, id} = users
+console.log(name, id); */
+
+
 
 
 
