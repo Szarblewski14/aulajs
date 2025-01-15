@@ -182,12 +182,62 @@ console.log(name, id); */
 
 
 
+// --------------- Metodos de array -----------------
 
+/* Map() - Percorre os itens 
 
+const users = ["leo", "nit", "pedro"]
+users.map((user) => {
+    console.log(user);
+    
+}) */
 
+/* Filter() - Cria um novo array com os itens que passaram na condição 
 
+const users = ["leo", "nit", "pedro"]
 
+const result = users.filter((user) => {
+    user.length > 2
+})
+console.log(result); */
 
+/* FindIndex() - Retorna o indice do primeiro elemento que satisfaz a condiçaõ
+
+const values = [1, 5, 10, 20]
+
+console.log(values.findIndex((value) => value > 10)); */
+
+/* Find() - Retorna o valor do primeiro elemento que satisfaz a condição
+
+const users = ["leo", "niolas", "oi"]
+
+const result = users.find((user) => user.length >= 3)
+console.log(result); */
+
+/* Every() - Testa se todos elementos do array passa na condição
+
+const users = ["leo", "niolas", "oi"]
+
+const result = users.every((user) => user.length >= 2)
+
+console.log(result); */
+
+/* Some() - Testa se ao menos um elemento passa na condição
+
+const users = ["leo", "niolas", "oi"]
+const result = users.some((user) => user.length > 3)
+
+console.log(result); */
+
+/* Reduce() - Reduzir o array para um unico valor
+
+const vendas = [650, 550, 1020, 1060, 200, 150, 495, 875];
+
+const maiorValor = vendas.reduce((maiorValor, elementoAtual) => {
+  return maiorValor > elementoAtual ? maiorValor : elementoAtual;
+}, 0);
+
+console.log(maiorValor); */
 
 
 
