@@ -58,7 +58,7 @@ form.addEventListener("onsubmit", (e) => {
 const message = "bom dia leonardo!!"
 console.log(message.length); */
 
-/*Replace substitui 
+/* Replace substitui 
 
 
 const message = "olá leonardo"
@@ -96,6 +96,71 @@ console.log(message.indexOf("JS")); */
 /* Includes verifica se existe a palavra e retorna true ou false
 const message = "bom dia leonardo"
 console.log(message.includes("dia")); */
+
+
+
+
+
+// Array
+
+/* Push (adiciona item no array)
+
+let user = []
+user.push = "leo"
+console.log(user); */
+
+/* Unshift(adiciona item no inicio da lista) 
+   Shift(remove o primeiro item da lista)
+   Pop(remove o ultimo item da lista)
+
+
+const user = ["leo", "nit", "pedro"]
+
+user.unshift("ana")
+console.log(user);
+
+user.shift()
+console.log(user);
+
+user.pop()
+console.log(user); */
+
+/* Splice remove item do array
+
+const frutas = ["banana", "maça", "mamao"]
+frutas.splice(0, 1)
+console.log(frutas); */
+
+/* Includes verifica se existe o item no array
+const fruta = ["maça"]
+console.log(fruta.includes("maça")); */
+
+
+
+
+
+
+ 
+
+
+
+
+
+// JS FRAMEWORK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
